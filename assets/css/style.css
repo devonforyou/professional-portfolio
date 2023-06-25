@@ -1,0 +1,159 @@
+:root {
+--smoke: #5a6066;
+--white: #ffffff;
+
+}
+
+header {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+    padding: 5px;
+    background-image: url(https://plus.unsplash.com/premium_photo-1673541167916-e81a33b580bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Z2VvbWV0cmljJTIwcGF0dGVybnxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+.page-title {
+    text-align: left;
+    margin: 25px 0px 0px 25px;
+    font-size: 50px;
+    color: var(--white);
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: 1.2px;
+}
+
+.header-links {
+    text-align: right;
+    margin: 0px 20px 20px 0px;
+    padding: 3px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-links li {
+    display: inline;
+    list-style-type: none;
+    color: var(--white);
+    font-size: 30px;
+    margin: 45px;
+    padding: 10px
+}
+
+body {
+    background-color: var(--smoke);
+}
+
+h2 {
+    font-size: 50px;
+    color: var(--white);
+    -webkit-text-stroke: #000000;
+    -webkit-text-stroke-width: 1.2px;
+}
+
+img {
+    width: 300px;
+
+}
+
+main {
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.container {
+    margin: 250px 900px 50px 40%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.biography {
+    margin-left: 50px;
+}
+
+#bio {
+    position: relative;
+    margin: 200px 800px 50px 130px;
+}
+
+#bio-text {
+    font-size: 25px;
+    color: var(--white);
+    padding: 45px;
+    width: 500px;
+    text-align: center;
+    margin-top: 125px;
+    border-style: dotted;
+    border-color: black;
+}
+
+#bio-text p {
+    margin: 0px 50px 0px 50px;
+}
+
+#app-header {
+    margin: 400px 0px 0px 45%;
+    padding-top: 200px;
+}
+
+.applications {
+    display:flex;
+    flex-direction: row;
+    position: relative;
+    padding: 52px;
+    margin: 0px 8px 20px 10px;
+    background-color: #3f4347;
+}
+
+.web-apps {
+    display: flexbox;
+    flex-wrap: wrap;
+    margin:0px 50px 0px 50px;
+    padding: 50px;
+}
+
+.web-apps img {
+    width: 400px;
+}
+
+h3 {
+    font-size: 33px;
+    color: var(--white);
+    text-decoration: underline;
+}
+
+.app-focus {
+    color: var(--white);
+    font-size: 25px;
+}
+
+
+#contact {
+    margin: 400px 50px 0px 47%;
+    padding-top:200px;
+}
+
+#contact nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -100px;
+    justify-content: space-between;
+}
+
+#contact button {
+    margin: 300px 0px 0px 0px;
+    padding: 15px;
+    color: var(--white);
+    background-color: #454a4e;
+    font-size: 33px;
+    border-radius: 3%;
+}
+
+footer {
+    margin: 300px 0px 0px 46%;
+    color: var(--white);
+    font-size: 25px;
+}
