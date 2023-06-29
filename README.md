@@ -10,8 +10,8 @@
 ## Usage
 With this application, I am able to add more work I do in the future and have this as my portfolio. It's a good base portfolio that I can always look back on and improve as I learn more coding languages and techniques.
 
-##
-Me.
+## Credits
+Source code started from me.
 
 ## License
 
