@@ -144,7 +144,6 @@ flex-wrap: wrap;
 
 .sub-sec img {
     width: 400px;
-    /* flex: 4; */
 }
 
 h3 {
@@ -162,7 +161,7 @@ h3 {
     color: var(--white);
     font-size: 25px;
     font-style: italic;
-    /* font-size: 2vw; */
+    
 }
 
 .contact {
@@ -268,7 +267,7 @@ footer {
 
     .web-apps:hover .sub-sec:not(:hover) {
         display:flex;
-        /* text-align: center; */
+
     }
 
     .web-apps:hover img:not(:hover) {
@@ -287,23 +286,4 @@ footer {
         height: 20%;
     }
 
-        /* img:hover .sub-sec {
-        padding-bottom: 50px;
-    } */
-
-    /* img:hover img:not(:hover) {
-        width: 250px
-    } */
-
-    /* .sub-sec:hover img:not(:hover) {
-        width: 200px;
-    } */
-
-    /* .sub-sec:hover .web-apps {
-        margin: 20px 10px;
-    } */
-
-     /* .web-apps:hover img:not(:hover) {
-        width: 200px;
-    } */
 }
